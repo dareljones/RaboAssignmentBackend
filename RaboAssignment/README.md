@@ -25,7 +25,7 @@ Things required to work properly
 * Postman-
   https://www.getpostman.com/downloads/
 
-### Installing
+### Installation
 
 Open the project in Spring Tool Suite
 
@@ -53,7 +53,7 @@ To run the project
 
 ```
 	- Right click the project
-	- Run As -> SPring Boot App
+	- Run As -> Spring Boot App
 				or
 	- Press Alt + Shift + X + B
 ```
@@ -66,9 +66,7 @@ To pass the file location
 	- Set Request URL as "localhost:8080"
 	- Select "raw" and "JSON(application/json" in Body
 	= Enter the file location 
-			- ex: "D:\TestData\records.csv"
-			 						or
-			 		"D:\Assignment\records.xml"
+			- ex: "D:\TestData\records.csv"	 or "D:\Assignment\records.xml"
 	- Click Send
 	
 ```

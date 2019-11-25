@@ -16,6 +16,21 @@ public class CsvEntity {
 	@CsvBindByName(column = "End Balance")
 	private Float endBalance;
 
+	public CsvEntity() {
+		super();
+	}
+
+	public CsvEntity(Integer reference, String accountNumber, String description, Float startBalance, Float mutation,
+			Float endBalance) {
+		super();
+		this.reference = reference;
+		this.accountNumber = accountNumber;
+		this.description = description;
+		this.startBalance = startBalance;
+		this.mutation = mutation;
+		this.endBalance = endBalance;
+	}
+
 	public Integer getReference() {
 		return reference;
 	}
