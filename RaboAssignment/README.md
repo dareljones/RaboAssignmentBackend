@@ -10,8 +10,7 @@ Download the source code as zip file from
 	
 or clone from
 
-	* https://github.com/dareljones/RaboAssignmentBackend/tree/master/RaboAssignment/
-
+	* https://github.com/dareljones/RaboAssignmentBackend/tree/master/RaboAssignment
 ### Prerequisites
 
 Things required to work properly
