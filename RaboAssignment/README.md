@@ -4,11 +4,7 @@ This application performs necessary validations of customer bank transaction sta
 
 ## Getting Started
 
-Download the source code as zip file from
-
-	* https://drive.google.com/
-	
-or clone from
+Download the source code as zip file from-
 
 	* https://github.com/dareljones/RaboAssignmentBackend/tree/master/RaboAssignment
 ### Prerequisites
