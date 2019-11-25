@@ -37,7 +37,7 @@ If not use maven to download the dependencies.
 ```
 	- Right click the project
 	- Maven -> Update Project
-				or
+	  or
 	- Press Alt + F5
 ```
 
@@ -49,7 +49,7 @@ To run the project
 ```
 	- Right click the project
 	- Run As -> Spring Boot App
-				or
+	  or
 	- Press Alt + Shift + X + B
 ```
 
