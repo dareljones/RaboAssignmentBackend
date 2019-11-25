@@ -1,26 +1,25 @@
-package com.cts.assignment.reportgenerator.pojo;
+package com.cts.assignment.reportgenerator.model;
 
-import com.opencsv.bean.CsvBindByName;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlRootElement;
 
-public class CsvEntity {
-	@CsvBindByName
+@XmlRootElement(name = "record")
+@XmlAccessorType(XmlAccessType.PROPERTY)
+public class Records {
 	private Integer reference;
-	@CsvBindByName
 	private String accountNumber;
-	@CsvBindByName
 	private String description;
-	@CsvBindByName(column = "Start Balance")
 	private Float startBalance;
-	@CsvBindByName
 	private Float mutation;
-	@CsvBindByName(column = "End Balance")
 	private Float endBalance;
 
-	public CsvEntity() {
+	public Records() {
 		super();
 	}
 
-	public CsvEntity(Integer reference, String accountNumber, String description, Float startBalance, Float mutation,
+	public Records(Integer reference, String accountNumber, String description, Float startBalance, Float mutation,
 			Float endBalance) {
 		super();
 		this.reference = reference;
@@ -31,6 +30,7 @@ public class CsvEntity {
 		this.endBalance = endBalance;
 	}
 
+	@XmlAttribute
 	public Integer getReference() {
 		return reference;
 	}
@@ -78,5 +78,7 @@ public class CsvEntity {
 	public void setEndBalance(Float endBalance) {
 		this.endBalance = endBalance;
 	}
+
+
 
 }

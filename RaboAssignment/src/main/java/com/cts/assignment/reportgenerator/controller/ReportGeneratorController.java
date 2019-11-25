@@ -10,13 +10,14 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.cts.assignment.reportgenerator.exception.UnknownFileException;
 import com.cts.assignment.reportgenerator.service.CsvService;
 import com.cts.assignment.reportgenerator.service.XmlService;
 
+@RequestMapping("generatereport")
 @RestController
 public class ReportGeneratorController {
 
@@ -30,7 +31,7 @@ public class ReportGeneratorController {
 		this.xmlService = xmlService;
 	}
 
-	@PostMapping()
+	@PostMapping("validate")
 	public ResponseEntity<Object> validateAndGenerateReport(@RequestBody String filePath)
 			throws IOException, JAXBException {
 

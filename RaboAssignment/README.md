@@ -58,10 +58,11 @@ To pass the file location
 ```
 	- Open Postman
 	- Change method to POST
-	- Set Request URL as "localhost:8080"
+	- Set Request URL as "localhost:8080/generatereport/validate"
 	- Select "raw" and "JSON(application/json" in Body
 	= Enter the file location 
 			- ex: "D:\TestData\records.csv"	 or "D:\Assignment\records.xml"
+			- sample in "src/main/resources"
 	- Click Send
 	
 ```

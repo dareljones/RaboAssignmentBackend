@@ -1,4 +1,4 @@
-package com.cts.assignment.reportgenerator.pojo;
+package com.cts.assignment.reportgenerator.model;
 
 import java.util.List;
 

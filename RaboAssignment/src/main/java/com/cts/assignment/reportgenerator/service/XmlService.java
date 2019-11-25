@@ -14,8 +14,8 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 
-import com.cts.assignment.reportgenerator.pojo.Records;
-import com.cts.assignment.reportgenerator.pojo.XmlEntity;
+import com.cts.assignment.reportgenerator.model.Records;
+import com.cts.assignment.reportgenerator.model.XmlEntity;
 import com.opencsv.CSVWriter;
 import org.springframework.stereotype.Service;
 import java.text.DecimalFormat;

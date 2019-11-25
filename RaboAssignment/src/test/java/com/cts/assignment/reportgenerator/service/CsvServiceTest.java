@@ -10,7 +10,7 @@ import java.util.Set;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
-import com.cts.assignment.reportgenerator.pojo.CsvEntity;
+import com.cts.assignment.reportgenerator.model.CsvEntity;
 
 class CsvServiceTest {
 

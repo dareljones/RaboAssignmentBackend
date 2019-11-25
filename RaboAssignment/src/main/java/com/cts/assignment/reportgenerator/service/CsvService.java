@@ -9,7 +9,8 @@ import java.nio.file.Paths;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-import com.cts.assignment.reportgenerator.pojo.CsvEntity;
+
+import com.cts.assignment.reportgenerator.model.CsvEntity;
 import com.opencsv.CSVWriter;
 import com.opencsv.bean.CsvToBean;
 import com.opencsv.bean.CsvToBeanBuilder;

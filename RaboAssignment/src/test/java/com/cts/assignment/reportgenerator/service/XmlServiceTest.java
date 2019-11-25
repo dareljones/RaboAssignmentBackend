@@ -12,7 +12,7 @@ import javax.xml.bind.UnmarshalException;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
-import com.cts.assignment.reportgenerator.pojo.Records;
+import com.cts.assignment.reportgenerator.model.Records;
 
 class XmlServiceTest {
 
